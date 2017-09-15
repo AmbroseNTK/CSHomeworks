@@ -51,6 +51,8 @@
     <Compile Include="Tuan1Bai4.cs" />
     <Compile Include="Tuan1Bai5.cs" />
     <Compile Include="Tuan1Bai6.cs" />
+    <Compile Include="Tuan1Bai7.cs" />
+    <Compile Include="Tuan1Bai8.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
