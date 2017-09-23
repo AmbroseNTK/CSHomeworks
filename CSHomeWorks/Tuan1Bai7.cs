@@ -13,10 +13,12 @@ namespace CSHomeWorks.Tuan1.Bai7
             Console.WriteLine("Enter name:");
             string name = Console.ReadLine();
             name = name.ToUpper();
-            if (name.Contains("THI"))
-                Console.WriteLine("You are woman");
+            if (name.Contains("THI") && name.Contains("VAN"))
+                Console.WriteLine("Unknown");
             else if (name.Contains("VAN"))
                 Console.WriteLine("You are man");
+            else if(name.Contains("THI"))
+                Console.WriteLine("You are woman");
             else
                 Console.WriteLine("Unknown");
         }

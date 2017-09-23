@@ -53,6 +53,13 @@
     <Compile Include="Tuan1Bai6.cs" />
     <Compile Include="Tuan1Bai7.cs" />
     <Compile Include="Tuan1Bai8.cs" />
+    <Compile Include="Tuan2Bai1.cs" />
+    <Compile Include="Tuan2Bai2.cs" />
+    <Compile Include="Tuan2Bai3.cs" />
+    <Compile Include="Tuan2Bai4.cs" />
+    <Compile Include="Tuan2Bai5.cs" />
+    <Compile Include="Tuan2Bai6.cs" />
+    <Compile Include="Tuan2Bai7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
