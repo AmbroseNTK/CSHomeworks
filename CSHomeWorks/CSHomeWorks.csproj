@@ -64,6 +64,12 @@
     <Compile Include="Tuan3Bai1\Student.cs" />
     <Compile Include="Tuan3Bai2.cs" />
     <Compile Include="Tuan3Bai2\Wallet.cs" />
+    <Compile Include="Tuan3Bai3.cs" />
+    <Compile Include="Tuan3Bai3\Rectangle.cs" />
+    <Compile Include="Tuan3Bai4.cs" />
+    <Compile Include="Tuan3Bai4\Circle.cs" />
+    <Compile Include="Tuan3Bai4\Shape.cs" />
+    <Compile Include="Tuan3Bai4\Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
