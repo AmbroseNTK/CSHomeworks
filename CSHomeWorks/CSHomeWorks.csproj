@@ -45,6 +45,7 @@
     <Compile Include="HomeWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="Tuan1Bai1.cs" />
     <Compile Include="Tuan1Bai2.cs" />
     <Compile Include="Tuan1Bai3.cs" />
@@ -73,6 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tuan6\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
