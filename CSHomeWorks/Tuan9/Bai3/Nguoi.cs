@@ -40,8 +40,20 @@ namespace CSHomeWorks.Tuan9.Bai3
             hoTen = Console.ReadLine();
             Console.WriteLine("DOB: ");
             ngaySinh = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine("Gioi Tinh");
-            gioiTinh = (GioiTinh)(GioiTinh.Parse(typeof(GioiTinh), Console.ReadLine()));
+            bool complete = false;
+            while (!complete)
+            {
+                try
+                {
+                    Console.WriteLine("Gioi Tinh");
+                    gioiTinh = (GioiTinh)(GioiTinh.Parse(typeof(GioiTinh), Console.ReadLine()));
+                    complete = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Chi duoc nhap (Nam/Nu/KhongXacDinh) !");
+                }
+            }
         }
     }
 }

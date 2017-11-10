@@ -25,7 +25,7 @@ namespace CSHomeWorks.Tuan9.Bai3
             giaoVien.ThongBaoKetQuaKhenThuong();
             giangVien.ThongBaoKetQuaKhenThuong();
 
-            Console.ReadLine();
+         
         }
     }
 }

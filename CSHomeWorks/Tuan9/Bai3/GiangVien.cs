@@ -20,6 +20,12 @@ namespace CSHomeWorks.Tuan9.Bai3
         {
             this.lVTN = lVTN;
         }
+        public void Input()
+        {
+            base.Input();
+            Console.WriteLine("So luong sinh vien huong dan luan van: ");
+            lVTN = int.Parse(Console.ReadLine());
+        }
         public bool XetKhenThuong()
         {
             return lVTN >= 10 && base.XetKhenThuong();
