@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,12 +72,21 @@
     <Compile Include="Tuan3Bai4\Circle.cs" />
     <Compile Include="Tuan3Bai4\Shape.cs" />
     <Compile Include="Tuan3Bai4\Square.cs" />
+    <Compile Include="Tuan6\Sanpham.cs" />
+    <Compile Include="Tuan6\SinhVien.cs" />
+    <Compile Include="Tuan6\Tuan6Bai1.cs" />
+    <Compile Include="Tuan6\Tuan6Bai2.cs" />
+    <Compile Include="Tuan9\Bai3\HocSinh.cs" />
+    <Compile Include="Tuan9\Bai3\Nguoi.cs" />
+    <Compile Include="Tuan9\Bai3\SinhVien.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tuan6\" />
+    <Content Include="demo.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
