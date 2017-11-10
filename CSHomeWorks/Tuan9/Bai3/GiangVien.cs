@@ -6,34 +6,30 @@ using System.Threading.Tasks;
 
 namespace CSHomeWorks.Tuan9.Bai3
 {
-    class SinhVien : HocSinh
+    class GiangVien:GiaoVien
     {
-        private bool nckh;
+        private int lVTN;
 
-        public bool Nckh { get => nckh; set => nckh = value; }
+        public int LVTN { get => lVTN; set => lVTN = value; }
 
-        public SinhVien() : base()
+        public GiangVien() : base()
         {
-            nckh = false;
+            lVTN = 0;
         }
-        public SinhVien(string hoTen, DateTime ngaySinh, GioiTinh gioiTinh,double dTB,bool nckh) : base(hoTen, ngaySinh, gioiTinh,dTB)
+        public GiangVien(string hoTen, DateTime ngaySinh, GioiTinh gioiTinh, double diemFeedback, int lVTN) : base(hoTen, ngaySinh, gioiTinh, diemFeedback)
         {
-            this.nckh = nckh;
+            this.lVTN = lVTN;
         }
         public bool XetKhenThuong()
         {
-            return nckh && base.XetKhenThuong();
+            return lVTN >= 10 && base.XetKhenThuong();
         }
         public void ThongBaoKetQuaKhenThuong()
         {
             if (XetKhenThuong())
-            {
                 Console.WriteLine(base.HoTen + " duoc khen thuong");
-            }
             else
-            {
                 Console.WriteLine(base.HoTen + " khong duoc khen thuong");
-            }
         }
     }
 }

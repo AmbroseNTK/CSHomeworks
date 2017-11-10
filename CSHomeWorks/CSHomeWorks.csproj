@@ -76,9 +76,12 @@
     <Compile Include="Tuan6\SinhVien.cs" />
     <Compile Include="Tuan6\Tuan6Bai1.cs" />
     <Compile Include="Tuan6\Tuan6Bai2.cs" />
+    <Compile Include="Tuan9\Bai3\GiangVien.cs" />
+    <Compile Include="Tuan9\Bai3\GiaoVien.cs" />
     <Compile Include="Tuan9\Bai3\HocSinh.cs" />
     <Compile Include="Tuan9\Bai3\Nguoi.cs" />
     <Compile Include="Tuan9\Bai3\SinhVien.cs" />
+    <Compile Include="Tuan9\Bai3\Tuan9Bai3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
