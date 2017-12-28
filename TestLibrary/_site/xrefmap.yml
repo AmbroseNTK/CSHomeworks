@@ -1,0 +1,45 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: TestLibrary
+  name: TestLibrary
+  href: api/TestLibrary.html
+  commentId: N:TestLibrary
+  fullName: TestLibrary
+  nameWithType: TestLibrary
+- uid: TestLibrary.Class1
+  name: Class1
+  href: api/TestLibrary.Class1.html
+  commentId: T:TestLibrary.Class1
+  fullName: TestLibrary.Class1
+  nameWithType: Class1
+- uid: TestLibrary.Class1.#ctor
+  name: Class1()
+  href: api/TestLibrary.Class1.html#TestLibrary_Class1__ctor
+  commentId: M:TestLibrary.Class1.#ctor
+  fullName: TestLibrary.Class1.Class1()
+  nameWithType: Class1.Class1()
+- uid: TestLibrary.Class1.#ctor(System.Int32)
+  name: Class1(Int32)
+  href: api/TestLibrary.Class1.html#TestLibrary_Class1__ctor_System_Int32_
+  commentId: M:TestLibrary.Class1.#ctor(System.Int32)
+  fullName: TestLibrary.Class1.Class1(System.Int32)
+  nameWithType: Class1.Class1(Int32)
+- uid: TestLibrary.Class1.#ctor*
+  name: Class1
+  href: api/TestLibrary.Class1.html#TestLibrary_Class1__ctor_
+  commentId: Overload:TestLibrary.Class1.#ctor
+  fullName: TestLibrary.Class1.Class1
+  nameWithType: Class1.Class1
+- uid: TestLibrary.Class1.Num
+  name: Num
+  href: api/TestLibrary.Class1.html#TestLibrary_Class1_Num
+  commentId: P:TestLibrary.Class1.Num
+  fullName: TestLibrary.Class1.Num
+  nameWithType: Class1.Num
+- uid: TestLibrary.Class1.Num*
+  name: Num
+  href: api/TestLibrary.Class1.html#TestLibrary_Class1_Num_
+  commentId: Overload:TestLibrary.Class1.Num
+  fullName: TestLibrary.Class1.Num
+  nameWithType: Class1.Num

@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CSHomeWorks.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,7 +47,18 @@
     <Compile Include="HomeWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Review142\Book.cs" />
+    <Compile Include="Review142\BookList.cs" />
+    <Compile Include="Review142\Review142.cs" />
+    <Compile Include="Review14\Product.cs" />
+    <Compile Include="Review14\ProductList.cs" />
+    <Compile Include="Review14\Review14.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="Tuan11\Account.cs" />
+    <Compile Include="Tuan11\Bank.cs" />
+    <Compile Include="Tuan11\BussinessAccount.cs" />
+    <Compile Include="Tuan11\Tuan11.cs" />
+    <Compile Include="Tuan11\VIPAccount.cs" />
     <Compile Include="Tuan1Bai1.cs" />
     <Compile Include="Tuan1Bai2.cs" />
     <Compile Include="Tuan1Bai3.cs" />

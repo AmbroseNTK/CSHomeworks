@@ -11,7 +11,7 @@ namespace CSHomeWorks
     {
         static void Main(string[] args)
         {
-            HomeWork homeWork = new CSHomeWorks.Tuan9.Bai3.Tuan9Bai3();
+            HomeWork homeWork = new CSHomeWorks.Review14.Review14();
             homeWork.RunHomeWork();
             Console.WriteLine("\n");
             Console.ReadLine();
